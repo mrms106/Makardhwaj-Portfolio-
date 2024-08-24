@@ -1,0 +1,84 @@
+.projectmain{
+    min-height: 90vh;
+    max-width: 55vw;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.projectname{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.projectbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.card{
+    background-color: #fff4f4 !important;
+    width: 25rem !important;
+    height: 24rem !important;
+    border: none !important;
+    border-radius: 20px !important;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.card2{
+    background-color: rgba(247, 249, 254, 0.838) !important;
+}
+.card-body{
+    margin-left: 1.5rem;
+}
+.card-body h3{
+    font-size: 25px;
+    margin-bottom: -8px;
+}
+.card-body p{
+    font-size: 18px;
+}
+.card img{
+   width: 22rem !important;
+   max-height: 10rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px !important;
+}
+.copyrightproject{
+    justify-content: center;
+    text-align: center;
+    min-height: 4rem;
+    width: 100%;
+    background-color: rgb(247, 249, 254);
+    padding-top: 20px;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width:768px){
+    .projectmain{
+        max-width: 24rem;  
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    .projectbox{
+        margin-left: 10px;
+    }
+    .card{
+       
+        width: 22rem !important;
+        height: 24rem !important;
+        margin-left: 0rem;
+    }
+    .card img{
+       width: 19rem !important;
+       max-height: 8rem;
+      margin-left: 1.5rem;
+      margin-top: 1rem;
+      border-radius: 10px !important;
+    }
+}
