@@ -6,8 +6,8 @@ export default function MainBox(){
      <>
      <div className="leftmain">
         <div className="leftimagebox">
-            {/* <img src="https://st4.depositphotos.com/5934840/27053/v/450/depositphotos_270534534-stock-illustration-businessman-avatar-cartoon-character.jpg" alt="Your Image" /> */}
-            <div className="imgagmain"></div>
+            <img src="https://st4.depositphotos.com/5934840/27053/v/450/depositphotos_270534534-stock-illustration-businessman-avatar-cartoon-character.jpg" alt="Your Image" />
+            {/* <div className="imgagmain"></div> */}
         </div>
 
         <div className="leftbox">

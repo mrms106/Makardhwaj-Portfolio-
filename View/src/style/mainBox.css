@@ -1,5 +1,5 @@
 body{
-    background-image: url("bgimage.jpg");
+    background-image: url("../assets/bgimage.jpg");
     color: black;
     font-family: "Sansita", sans-serif;
     transition: 0.1s;
