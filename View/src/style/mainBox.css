@@ -1,9 +1,13 @@
 body{
+    margin: 0 0 0 0;
+}
+.body{
     background-image: url("../assets/bgimage.jpg");
     color: black;
     font-family: "Sansita", sans-serif;
     transition: 0.1s;
-
+    background-size: cover; 
+   background-repeat: initial;
 }
 
 .mainbox{
