@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import '../../style/contact.css'
+import Swal from 'sweetalert2'
+
 export default function ContactMe(){
   const [form, setform]=useState({
     name:"",
@@ -12,6 +14,14 @@ export default function ContactMe(){
   console.log(form)
   const onFormSubmit= async(event)=>{
     event.preventDefault()
+    Swal.fire({
+      title: 'Sending...',
+      html: 'Please wait For few Seconds',
+      allowOutsideClick: false,
+      didOpen: () => {
+          Swal.showLoading()
+      }
+  });
     try{
       const responce= await fetch("http://localhost:8080/7798366613242993/home",{
         method:"POST",
@@ -21,17 +31,32 @@ export default function ContactMe(){
         body:JSON.stringify(form)
       })
       if(responce.ok){
-        alert("form is submmited")
+        Swal.fire({
+          icon: "success",
+          title: "Thank You...",
+          text: "You responce is sent",
+          footer: 'We will get back to you in 1 working day',
+          timer: 10000,
+          timerProgressBar: true,
+        });
         setform({
           name:"",
           email:"",
           message:""
         })
       }else{
-        alert("error in submmission")
+        Swal.fire({
+          icon: "error",
+          title: "Error in submission",
+          text: "Please try again.. ",
+        });
       }
     }catch(err){
-      alert("something went wrong",err)
+      Swal.fire({
+        icon: "error",
+        title: "The server is Busy",
+        text: "Please contact throw E-mail ",
+      });
       console.log(err)
     }
   }

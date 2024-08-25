@@ -10,7 +10,7 @@ const app=express();
 const controller=require("./controllers/controller");
 const cors= require("cors")
 const coreOptions={
-    origin: 'https://www.makardhwaj.rf.gd', 
+    origin: 'http://localhost:5173', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true
 }
