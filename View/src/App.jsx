@@ -8,6 +8,7 @@ import Projects from './elements/project/project';
 import ContactMe from './elements/contact/contactMe';
 import DarkModeBtn from './elements/darkModebtn';
 import './style/darkmode.css'
+import ScrollWindow from './elements/srollWindow';
 function App() {
  const[darkMode,setdarkMode]=useState(()=>{
   const setDarkMode=localStorage.getItem('darkMode')
@@ -17,13 +18,14 @@ function App() {
   localStorage.setItem('darkMode',darkMode)
  },[darkMode])
   return (
-    
+   
     <div className={darkMode ? "darkmode" : "body"}>
      <DarkModeBtn darkMode={darkMode} setdarkMode={setdarkMode}/>
     <div className='mainbox'>
       <Router>
-     
+      <ScrollWindow/>
       <MainBox/>
+      
         <Routes>
           <Route path='/' element={ <About/>}></Route>
           <Route path='/Resume' element={ <CvMain/>}></Route>
