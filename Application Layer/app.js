@@ -9,6 +9,8 @@ const methodOveride=require("method-override");
 const app=express();
 const controller=require("./controllers/controller");
 const cors= require("cors")
+const mongoose =require("mongoose")
+const mongodb=require("mongodb")
 const coreOptions={
     origin: 'http://localhost:5173', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
@@ -19,6 +21,15 @@ app.use(cors(coreOptions))
 app.use(express.urlencoded({extended:true}));
 app.use(methodOveride("_method"));
 
+// const dburl=process.env.dburl
+const dburl='mongodb://127.0.0.1:27017/portfolio'
 
-app.post("/7798366613242993/home" ,controller.home);
+
+main( console.log("the database is connected")).catch(err => console.log(err));
+
+async function main() {
+  await mongoose.connect(dburl);
+}
+
+app.post("/home" ,controller.home);
 app.listen("8080",controller.port);

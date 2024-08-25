@@ -1,12 +1,12 @@
-const {sendmail}=require("../mail/sendmail")
+const {sendmail}=require("../mail/sendmail");
+const contactMe = require("../module/contactMe");
 
-
-module.exports.home=(req,res)=>{
+module.exports.home=async(req,res)=>{
     try{
         console.log("the req is received from client side")
         const form=req.body;
-        console.log(form)
-        // sendmail(form);
+        sendmail(form)
+        await  contactMe.create(form)
         console.log("sent")
         res.status(200).send(`the form is submitted`)
     }catch(error){
