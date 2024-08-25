@@ -23,7 +23,7 @@ export default function ContactMe(){
       }
   });
     try{
-      const responce= await fetch("http://localhost:8080/7798366613242993/home",{
+      const responce= await fetch("https://www.ssfixturing.com/portfolio/7798366613242993/home",{
         method:"POST",
         headers:{
            'Content-Type': 'application/json'
