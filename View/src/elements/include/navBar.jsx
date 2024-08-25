@@ -1,23 +1,32 @@
 import '../../style/navbar.css'
 import { useNavigate } from 'react-router-dom'
+import NavBox from './navbox'
 
 export default function NavBar(){
     const navigate=useNavigate()
     return(
         <>
         <div className="navbox">
-            <div className="about navbox1" onClick={()=>{navigate('/')}} >
-                <i className="fa-regular fa-user"></i><span>About</span>
-            </div>
-            <div className="resume navbox1" onClick={()=>{navigate('/Resume')}}>
-                <i className="fa-regular fa-file-lines"></i><span>Resume</span>
-            </div>
-            <div className="project navbox1" onClick={()=>{navigate('/projects')}}>
-                <i className="fa-solid fa-business-time"></i><span>Projects</span>
-            </div>
-            <div className="contactme navbox1" onClick={()=>{navigate('/contactme')}}>
-                <i className="fas fa-envelope"></i><span>Contact</span>
-            </div>
+            <NavBox
+            BoxClick={()=>{navigate('/')}}
+            icon={<i className="fa-regular fa-user"></i>}
+            title="About"
+             />
+             <NavBox
+            BoxClick={()=>{navigate('/Resume')}}
+            icon={<i className="fa-regular fa-file-lines"></i>}
+            title="Resume"
+             />
+             <NavBox
+            BoxClick={()=>{navigate('/projects')}}
+            icon={<i className="fa-solid fa-business-time"></i>}
+            title="Projects"
+             />
+             <NavBox
+            BoxClick={()=>{navigate('/contactme')}}
+            icon={<i className="fas fa-envelope"></i>}
+            title="Contact"
+             />
         </div>
 
         </>
