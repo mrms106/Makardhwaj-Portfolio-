@@ -7,7 +7,7 @@ function sendmail(form){
         subject:"New Form Submmission From Makardhwaj Portfolio",
         text:`The Form Details is as Following 
         name:${form.name},
-        email: ${form.mail},
+        email: ${form.email},
         Message:${form.message}`
     }
     transporter.sendMail(mailoptions,function(error,info){
