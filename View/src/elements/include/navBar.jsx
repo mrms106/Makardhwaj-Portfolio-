@@ -8,7 +8,7 @@ export default function NavBar(){
         <>
         <div className="navbox">
             <NavBox
-            BoxClick={()=>{navigate('/')}}
+            BoxClick={()=>{navigate('/about')}}
             icon={<i className="fa-regular fa-user"></i>}
             title="About"
              />
