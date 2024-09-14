@@ -1,0 +1,21 @@
+{
+    "short_name": "Makardhwaj",
+    "name": "Makardhwaj's || portfolio ",
+    "icons": [
+      {
+        "src": "/character.jpg",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/character.jpg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }
+  
