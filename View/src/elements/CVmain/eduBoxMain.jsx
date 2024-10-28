@@ -11,13 +11,13 @@ export default function EduBoxMain(){
                         eduClass="edubox"
                         year="2022-2024"
                         eduheading="MSC in Computer Science,"
-                        edupara="from College of Computer Science and Information Technology, Latur."
+                        edupara="from Swami Ramanand Teerth Marathwada University, Nanded."
                         />
                     <EduBox
                     eduClass="edubox edubg"
                     year="2019-2022"
                     eduheading="BSc in Computer Science,"
-                    edupara="from College of Computer Science and Information Technology, Latur."
+                    edupara="from Swami Ramanand Teerth Marathwada University, Nanded."
                     />
                 </div>
                 <div className="courses">

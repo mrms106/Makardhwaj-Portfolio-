@@ -38,6 +38,7 @@
 }
 .year{
     margin-bottom: 10px;
+    display: none;
 }
 .edupara{
     font-size: 25px;
