@@ -25,7 +25,7 @@ export default function SkillBoxMain(){
                             />
                         <SkillBox
                         name="ReactJs"
-                        style={{ maxWidth: '60%', background: 'rgba(151, 56, 56, 0.533)' }}
+                        style={{ maxWidth: '70%', background: 'rgba(151, 56, 56, 0.533)' }}
                         />
                         <SkillBox
                         name="Git"
@@ -50,8 +50,8 @@ export default function SkillBoxMain(){
                         style={{ maxWidth: '70%', background: 'rgba(65, 65, 254, 0.549)' }}
                         />
                         <SkillBox
-                        name="Java"
-                        style={{ maxWidth: '60%', background: 'rgba(128, 0, 128, 0.649)' }}
+                        name="React-Native"
+                        style={{ maxWidth: '70%', background: 'rgba(128, 0, 128, 0.649)' }}
                         />
                         <SkillBox
                         name="Github"

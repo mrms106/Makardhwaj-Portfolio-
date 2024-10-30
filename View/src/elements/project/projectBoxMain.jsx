@@ -1,4 +1,6 @@
 import ProjectBox from "./projectBox"
+import fitnessimg from '../../assets/fitness.png'
+import movieimg from '../../assets/movie.png'
 export default function ProjectBoxMain(){
     return(
         <>
@@ -38,6 +40,20 @@ export default function ProjectBoxMain(){
           image="https://ridego-webpage.onrender.com/ridelogo.png"
           heading="Ride-GO -- Bike rental company website"
           paragraph="Crafted to perfection, boasting a sleek design and seamless navigation tailored to my client's requirements."
+           />
+           <ProjectBox
+          projectClass="card card2"
+          link="https://dhwajcode.22web.org/"
+          image={fitnessimg}
+          heading="Fitness -- Android-app"
+          paragraph="the ultimate fitness app designed to help you stay on top of your health and workout goals."
+           />
+            <ProjectBox
+          projectClass="card "
+          
+          image={movieimg}
+          heading="Movies -- Android-app"
+          paragraph="Explore movies with ease! Get quick access to cast, ratings, and summaries all in one app, perfect for movie lovers on the go!"
            />
     </div>
         </>
