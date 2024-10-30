@@ -71,7 +71,11 @@ body{
     border-radius: 10px;  
     font-size: 20px;
     transition: 0.1s;
-
+}
+.leftbox1:hover{
+   background-color: rgb(44, 44, 44); 
+   color: white;
+   cursor: context-menu;
 }
 .social{
     display: flex;

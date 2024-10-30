@@ -46,8 +46,8 @@ export default function SkillBoxMain(){
                         style={{ maxWidth: '70%', background: 'rgba(213, 29, 213, 0.566)' }}
                             />
                         <SkillBox
-                        name="Python"
-                        style={{ maxWidth: '70%', background: 'rgba(65, 65, 254, 0.549)' }}
+                        name="JAVA"
+                        style={{ maxWidth: '50%', background: 'rgba(65, 65, 254, 0.549)' }}
                         />
                         <SkillBox
                         name="React-Native"

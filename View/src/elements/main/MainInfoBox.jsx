@@ -18,14 +18,14 @@ export default function MainInfoBox(){
             infoclass="contacticon lo"
             icon={<i className="fa-solid fa-location-dot"></i>}
             title="Location"
-            info="Karve Nager, Pune"
+            info="Pune"
            />
            <InfoBox
             style={{ borderBottom: "none" }}
             infoclass="contacticon b"
             icon={<i className="fa-regular fa-calendar-days"></i>}
             title="Birthday"
-            info="June 10, 2001"
+            info="Sep 16, 2001"
            />
         </>
     )

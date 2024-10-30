@@ -14,6 +14,7 @@
 .darkmode .leftbox1{
     background-color: rgb(44, 44, 44);
     transition: 0.1s;
+    font-size: 15px;
 
 }
 .darkmode .imgagmain{

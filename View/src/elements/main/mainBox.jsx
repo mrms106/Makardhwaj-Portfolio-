@@ -12,7 +12,7 @@ export default function MainBox(){
 
         <div className="leftbox">
             <h3 className="name">Makardhwaj Surwase</h3>
-            <div className="leftbox1">Web Developer</div>
+            <div className="leftbox1">Web & APP Developer</div>
             <div className="social">
                <ScoialMainBox/>
             </div>
