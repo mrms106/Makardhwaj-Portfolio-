@@ -8,7 +8,7 @@ export default function About(){
                     <h2>About</h2>
                     <p>
                     🚀 Welcome to my corner of the digital universe! 🌟<br /><br />
-                    I'm Makardhwaj, a passionate full stack web developer with an insatiable curiosity for crafting remarkable digital experiences. Armed with an arsenal of technologies including HTML, CSS, Node.js, JavaScript, MongoDB, Express.js, Bootstrap, and React.js, I embark on journeys through code to bring visions to life.
+                    I'm Makardhwaj, a full stack web and mobile app developer with a passion for crafting seamless digital experiences. Skilled in HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB, and React.js for web development, and React Native for mobile, I bring ideas to life across platforms. Let’s create something remarkable together!
                     </p>
                     <div className="rightboxb1">
                         <h3>What I Do!</h3>
