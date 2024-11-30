@@ -31,5 +31,5 @@ async function main() {
   await mongoose.connect(dburl);
 }
 
-app.post("/home" ,controller.home);
+app.post("/api/contact/88937391237329389183" ,controller.home);
 app.listen("8080",controller.port);

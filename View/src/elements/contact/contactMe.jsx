@@ -23,7 +23,7 @@ export default function ContactMe(){
       }
   });
     try{
-      const responce= await fetch("http://localhost:8080/home",{
+      const responce= await fetch("http://localhost:8080/api/contact/88937391237329389183",{
         method:"POST",
         headers:{
            'Content-Type': 'application/json'

@@ -5,8 +5,7 @@ import NavBar from './elements/include/navBar'
 import About from './elements/About/about'
 import CvMain from './elements/CVmain/cvMain';
 import Projects from './elements/project/project';
-// import ContactMe from './elements/contact/contactMe';
-import ContactMe from './contactform'
+import ContactMe from './elements/contact/contactMe';
 import DarkModeBtn from './elements/darkModebtn';
 import './style/darkmode.css'
 import ScrollWindow from './elements/srollWindow';
